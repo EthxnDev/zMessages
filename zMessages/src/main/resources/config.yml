@@ -1,0 +1,29 @@
+# zMessages is a lightweight simple message plugin.
+# Version: v1.0
+#   Messages:
+#    Join-Messages:
+#      Broadcast:
+#        Enabled: true/false - This enables the message being broadcasted when someone joins
+#        Message: '&a[+] &6%player% &fhas joined' - This is what the broadcasted message contains
+#    Personal:
+#        Enabled: true/false - This is if you want to send a personal message to the player when they join
+#        Message: '&fWelcome &6%player% &fto &6&lDevMC&f, Enjoy your stay!' - This is the personal message that is sent to the player
+#    Quit-Messages:
+#      Broadcast:
+#       Enabled: true/false - This enables the quit message when someone leaves
+#       Message: '&c[+] &6%player% &fhas left' - This is what the broadcasted quit message contains
+
+
+
+Messages:
+  Join-Messages:
+    Broadcast:
+      Enabled: true
+      Message: '&a[+] &6%player% &fhas joined'
+    Personal:
+      Enabled: true
+      Message: '&fWelcome &6%player% &fto &6&lDevMC&f, Enjoy your stay!'
+  Quit-Messages:
+    Broadcast:
+      Enabled: true
+      Message: '&c[+] &6%player% &fhas left'

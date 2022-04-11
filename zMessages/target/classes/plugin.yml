@@ -1,0 +1,4 @@
+name: zMessages
+version: '1.0-SNAPSHOT'
+main: me.pcelmao.main.Main
+api-version: 1.16

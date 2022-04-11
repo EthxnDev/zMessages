@@ -1,0 +1,4 @@
+name: zMessages
+version: '${project.version}'
+main: me.pcelmao.main.Main
+api-version: 1.16
